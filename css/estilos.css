@@ -1,0 +1,64 @@
+*{
+    background-color: #F6B5B9;
+}
+img{
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+}
+.header{
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    font-size: 1.5em;
+}
+
+header .title{
+    margin-left:20px;
+}
+.header .title label{
+    position: absolute;
+    margin-top: -20px;
+}
+
+.nav{
+    position: relative;
+    margin-left: 60%;
+    margin-top: -60px;
+    font-size: 1.5em;
+}
+.nav .options{
+    display: flex;
+    width: 20px;
+    
+}
+.options li{
+    margin:10px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.options a{
+    text-decoration: none;
+    color:black;
+}
+
+.sabores ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.sabores ul li label{
+    text-align: center;
+    display: block;
+}
+
+button a{
+    text-decoration: none;
+}
+
+.informacion{
+    color: black    ;
+    align-content: center;
+}
